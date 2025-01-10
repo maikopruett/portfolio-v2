@@ -14,7 +14,7 @@
 
 .app-socials {
   display: flex;
-  gap: 15px;
+  gap: 25px;
   margin-top: 15px;
 }
 
@@ -23,14 +23,67 @@
   color: white;
   font-size: 2rem;
   font-weight: 600;
+  animation: fadein 2s ease-in-out;
 }
 
 #app-name {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-weight: 600;
+  animation: fadeinright 1.5s ease-in-out;
 }
 
 #app-location {
   font-size: 1.15rem;
   margin-bottom: 15px;
+  animation: fadein 2s ease-in-out;
+}
+
+@keyframes fadeinright {
+  from {
+    transform: translateX(-300%);
+    opacity: 0;
+    filter: blur(10px);
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+@keyframes fadeinmobile {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+    filter: blur(10px);
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 750px) {
+  #app-name {
+    animation: fadeinmobile 1s ease-in-out;
+    font-size: 2.5rem;
+  }
+
+  #app-location {
+    font-size: 1.15rem;
+  }
+
+  .app-socials {
+    gap: 15px;
+  }
 }
