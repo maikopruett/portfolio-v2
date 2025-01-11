@@ -22,7 +22,7 @@ function App() {
         <div className='app-socials'>
           <a target='_blank' href="https://github.com/maikopruett">Github</a>
           <a target='_blank' href="https://www.instagram.com/maikopruett/">Insta</a>
-          <a target='_blank' href="www.linkedin.com/in/maiko-pruett-219497229">Linkedin</a>
+          <a target='_blank' href="www.linkedin.com/in/maikopruett">Linkedin</a>
         </div>
         <p id='app-name'>Maiko Pruett</p>
         <p id='app-location'>Junior Software Engineer · Lebanon, OR</p>
