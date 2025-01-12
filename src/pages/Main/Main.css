@@ -78,6 +78,10 @@
   animation-delay: 2s;
 }
 
+a {
+    text-decoration: none;
+}
+
 @keyframes lefttoright {
   0% {
     transform: translateX(0);
