@@ -36,6 +36,12 @@
     border: 1px solid rgba(170, 170, 170, 0.655);
     box-shadow: 4px 4px 15px rgba(91, 91, 91, 0.573);
     animation: fadeinup 1s ease-in-out;
+    transition: 0.2s;
+}
+
+.portfolio-card:hover {
+    scale: 1.03;
+    transition: 0.3s;
 }
 
 .portfolio-card-bg {
@@ -112,6 +118,7 @@
   
   a {
       text-decoration: none;
+      color: black;
   }
 
   @keyframes righttoleft {
@@ -161,5 +168,9 @@
 
     #portfolio-back-btn {
         background: black;
+    }
+
+    .portfolio-card:hover {
+        scale: 1;
     }
 }
