@@ -24,7 +24,10 @@ function App() {
           <a target='_blank' href="https://www.instagram.com/maikopruett/">Insta</a>
           <a target='_blank' href="https://www.linkedin.com/in/maikopruett">Linkedin</a>
         </div>
-        <p id='app-name'>Maiko Pruett</p>
+        <div className='app-cta'>
+          <p id='app-name'>Maiko Pruett</p>
+          <button id='app-portfolio-btn'>Portfolio <img src="/arrow_forward.svg" alt="" /></button>
+        </div>
         <p id='app-location'>Junior Software Engineer · Lebanon, OR</p>
       </div>
     </>
