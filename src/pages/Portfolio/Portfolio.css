@@ -107,7 +107,7 @@
   #portfolio-back-btn img {
     scale: 1.3;
     animation: righttoleft infinite 1.5s ease-in-out;
-    animation-delay: 2s;
+    animation-delay: 1s;
   }
   
   a {
