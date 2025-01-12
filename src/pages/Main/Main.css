@@ -76,6 +76,7 @@
   scale: 1.3;
   animation: lefttoright infinite 1.5s ease-in-out;
   animation-delay: 2s;
+  -webkit-tap-highlight-color: transparent;
 }
 
 a {
