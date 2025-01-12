@@ -3,6 +3,7 @@ import * as reactSpring from '@react-spring/three'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 import Main from './pages/Main/Main'
+import Portfolio from './pages/Portfolio/Portfolio'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       </div>
       <Routes>
         <Route path='/' element={ <Main/> }/>
+        <Route path='/portfolio' element={ <Portfolio/> }/>
       </Routes>
     </BrowserRouter>
   )

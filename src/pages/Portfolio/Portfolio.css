@@ -1,0 +1,148 @@
+.portfolio-container {
+    width: 100dvw;
+    height: 100dvh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio-header {
+    color: white;
+    font-size: 3.5rem;
+    animation: fadein 1s ease-in-out;
+}
+
+.portfolio-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.portfolio-card {
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    width: 350px;
+    height: auto;
+    border: 1px solid rgba(170, 170, 170, 0.655);
+    box-shadow: 4px 4px 15px rgba(91, 91, 91, 0.573);
+    animation: fadeinup 1s ease-in-out;
+}
+
+.portfolio-card-bg {
+    width: 100%;
+    height: 150px;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.portfolio-card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.portfolio-card-date {
+    text-align: end;
+    margin: 0;
+}
+
+.portfolio-card-language {
+    margin: 0;
+}
+
+#portfolio-card-bg1 {
+    background-image: url('/portfolio/card-bg/snappify.png');
+}
+
+#portfolio-card-bg2 {
+    background-image: url('/portfolio/card-bg/portfolio.png');
+}
+
+#portfolio-card-bg3 {
+    background-image: url('/portfolio/card-bg/osudevclub.png');
+}
+
+#portfolio-back-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 25px;
+    padding: 5px 15px;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    width: 140px;
+    transition: 0.2s;
+    font-weight: 500;
+    animation: fadein 2s ease-in-out;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+    margin-bottom: 25px;
+  }
+
+  #portfolio-back-btn img {
+    scale: 1.3;
+    animation: righttoleft infinite 1.5s ease-in-out;
+    animation-delay: 2s;
+  }
+  
+  a {
+      text-decoration: none;
+  }
+
+  @keyframes righttoleft {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-30%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes fadeinup {
+    from {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+  }
+
+@media (max-width: 750px) {
+    
+    .portfolio-wrapper {
+        align-items: normal;
+    }
+
+    .portfolio-container {
+        justify-content: start;
+        padding: 25px 0;
+        background: white;
+    }
+
+    .portfolio-card {
+        width: 85dvw;
+    }
+
+    #portfolio-header {
+        color: black;
+        font-size: 3rem;
+        margin-bottom: 30px;
+    }
+
+    #portfolio-back-btn {
+        background: black;
+    }
+}
