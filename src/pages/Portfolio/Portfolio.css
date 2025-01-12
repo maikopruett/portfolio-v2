@@ -110,6 +110,11 @@
     margin-bottom: 25px;
   }
 
+  #portfolio-back-btn:hover {
+    scale: 1.1;
+    transition: 0.3s;
+  }
+
   #portfolio-back-btn img {
     scale: 1.3;
     animation: righttoleft infinite 1.5s ease-in-out;
@@ -171,6 +176,10 @@
     }
 
     .portfolio-card:hover {
+        scale: 1;
+    }
+
+    #portfolio-back-btn:hover {
         scale: 1;
     }
 }
