@@ -28,10 +28,11 @@
 }
 
 .portfolio-card {
+    box-sizing: border-box;
     background: white;
     padding: 15px;
     border-radius: 15px;
-    width: 350px;
+    width: 400px;
     height: auto;
     border: 1px solid rgba(170, 170, 170, 0.655);
     box-shadow: 4px 4px 15px rgba(91, 91, 91, 0.573);
@@ -166,7 +167,7 @@
     }
 
     .portfolio-card {
-        width: 85dvw;
+        width: 95dvw;
     }
 
     #portfolio-header {
