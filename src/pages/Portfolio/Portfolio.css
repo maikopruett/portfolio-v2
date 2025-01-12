@@ -153,12 +153,16 @@
     
     .portfolio-wrapper {
         align-items: normal;
+        padding-bottom: 30px;
     }
 
     .portfolio-container {
         justify-content: start;
-        padding: 25px 0;
         background: white;
+    }
+
+    #portfolio-header {
+        margin-top: 35px;
     }
 
     .portfolio-card {
