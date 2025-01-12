@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import './Main.css'
 
 export default function Main() {
@@ -11,7 +12,9 @@ export default function Main() {
         </div>
         <div className='app-cta'>
             <p id='app-name'>Maiko Pruett</p>
-            <button id='app-portfolio-btn'>Portfolio <img src="/arrow_forward.svg" alt="" /></button>
+            <NavLink to={'/portfolio'}>
+                <button id='app-portfolio-btn'>Portfolio <img src="/arrow_forward.svg" alt="" /></button>
+            </NavLink>
         </div>
         <p id='app-location'>Junior Software Engineer · Lebanon, OR</p>
     </div>
