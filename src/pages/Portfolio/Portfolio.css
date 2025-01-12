@@ -62,6 +62,8 @@
     color: white;
     border-radius: 25px;
     padding: 5px 15px;
+    font-size: 0.9rem;
+    font-weight: 600;
 }
 
 #portfolio-card-bg1 {
@@ -80,6 +82,7 @@
     display: flex;
     align-items: center;
     justify-content: start;
+    gap: 5px;
 }
 
 #portfolio-back-btn {
