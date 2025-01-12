@@ -12,21 +12,27 @@ export default function Portfolio() {
         <div className='portfolio-wrapper'>
             <div className='portfolio-card'>
                 <div id='portfolio-card-bg1' className='portfolio-card-bg'></div>
-                <p className='portfolio-card-title'>text</p>
+                <p className='portfolio-card-title'>Snappify</p>
                 <p className='portfolio-card-date'>date</p>
-                <p className='portfolio-card-language'>Language</p>
+                <div className='portfolio-card-languages'>
+                    <p className='portfolio-card-language'>React Js</p>
+                </div>
             </div>
             <div className='portfolio-card'>
                 <div id='portfolio-card-bg2' className='portfolio-card-bg'></div>
-                <p className='portfolio-card-title'>text</p>
+                <p className='portfolio-card-title'>Portfolio</p>
                 <p className='portfolio-card-date'>date</p>
-                <p className='portfolio-card-language'>Language</p>
+                <div className='portfolio-card-languages'>
+                    <p className='portfolio-card-language'>React Js</p>
+                </div>
             </div>
             <div className='portfolio-card'>
                 <div id='portfolio-card-bg3' className='portfolio-card-bg'></div>
-                <p className='portfolio-card-title'>text</p>
+                <p className='portfolio-card-title'>OSU Dev Club</p>
                 <p className='portfolio-card-date'>date</p>
-                <p className='portfolio-card-language'>Language</p>
+                <div className='portfolio-card-languages'>
+                    <p className='portfolio-card-language'>React Js</p>
+                </div>
             </div>
         </div>
     </div>
